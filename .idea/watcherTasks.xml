@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <enabled-global>
+      <option value="CSSO CSS Optimizer" />
+      <option value="UglifyJS" />
       <option value="SCSS" />
-      <option value="mincss" />
-      <option value="minjs" />
     </enabled-global>
   </component>
 </project>

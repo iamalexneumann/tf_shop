@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="TF Shop">
+  <component name="PublishConfigData" autoUpload="Always" serverName="TF Shop" autoUploadExternalChanges="true">
     <serverData>
       <paths name="TF Shop">
         <serverdata>
