@@ -1,0 +1,84 @@
+.review-item {
+  border: 1px solid var(--border-color);
+  margin-bottom: 30px;
+  border-radius: var(--border-radius);
+  padding: 20px;
+  transition: var(--transition); }
+  .review-item:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px); }
+  .review-item__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px; }
+  .review-item__img-link {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid var(--border-color); }
+  .review-item__img {
+    border-radius: 50%; }
+  .review-item__title {
+    font-size: 1.25rem;
+    margin: 0; }
+  .review-item__date {
+    font-size: var(--font-size-small);
+    color: var(--text-mutted);
+    margin: 5px 0;
+    display: block; }
+  .review-item__link {
+    color: var(--dark); }
+    .review-item__link:hover {
+      color: var(--danger); }
+  .review-item__text {
+    margin-bottom: 10px; }
+    .review-item__text *:last-child {
+      margin-bottom: 0; }
+  .review-item__tags {
+    margin-bottom: 30px; }
+  .review-item__tag {
+    font-size: var(--font-size-small);
+    font-weight: 500; }
+  .review-item .review-products__title {
+    font-weight: 700;
+    margin-bottom: 15px; }
+  .review-item .review-products__list {
+    margin: 0; }
+  .review-item .product-small-list {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .review-item .product-small-list__item {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center; }
+      .review-item .product-small-list__item:last-of-type {
+        margin-bottom: 0; }
+      .review-item .product-small-list__item::before {
+        display: inline-block;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font: var(--fa-font-solid);
+        content: "\f46b";
+        color: var(--danger);
+        font-size: 1rem;
+        margin-right: 7px; }
+    .review-item .product-small-list__link {
+      font-size: var(--font-size-small);
+      color: var(--dark); }
+      .review-item .product-small-list__link:hover {
+        color: var(--danger); }
+  .review-item__rating {
+    font-size: var(--font-size-small);
+    display: flex;
+    align-items: center;
+    color: #ffd101; }
+  .review-item__rating-icon {
+    margin-right: 2px; }
+  .review-item__rating-text {
+    color: var(--dark);
+    margin-left: 5px; }
+    .review-item__rating-text span {
+      font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */

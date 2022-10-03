@@ -8,7 +8,11 @@
   border: 1px solid var(--border-color);
   margin-bottom: calc((var(--bs-gutter-x) * .5) * 2);
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  transition: var(--transition); }
+  .product-item:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px); }
   .product-item_sale .product-item__img-link::before, .product-item_hit .product-item__img-link::before {
     content: '';
     position: absolute;

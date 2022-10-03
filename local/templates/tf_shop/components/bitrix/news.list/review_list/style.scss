@@ -1,0 +1,133 @@
+.review-item {
+  border: 1px solid var(--border-color);
+  margin-bottom: 30px;
+  border-radius: var(--border-radius);
+  padding: 20px;
+  transition: var(--transition);
+
+  &:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+    transform: translateY(-1px);
+  }
+
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__img-link {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid var(--border-color);
+  }
+
+  &__img {
+    border-radius: 50%;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  &__date {
+    font-size: var(--font-size-small);
+    color: var(--text-mutted);
+    margin: 5px 0;
+    display: block;
+  }
+
+  &__link {
+    color: var(--dark);
+
+    &:hover {
+      color: var(--danger);
+    }
+  }
+
+  &__text {
+    margin-bottom: 10px;
+
+    & *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__tags {
+    margin-bottom: 30px;
+  }
+
+  &__tag {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+  }
+
+  .review-products {
+    &__title {
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    &__list {
+      margin: 0;
+    }
+  }
+
+  .product-small-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      &::before {
+        display: inline-block;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font: var(--fa-font-solid);
+        content: "\f46b";
+        color: var(--danger);
+        font-size: 1rem;
+        margin-right: 7px;
+      }
+    }
+
+    &__link {
+      font-size: var(--font-size-small);
+      color: var(--dark);
+
+      &:hover {
+        color: var(--danger);
+      }
+    }
+  }
+
+  &__rating {
+    font-size: var(--font-size-small);
+    display: flex;
+    align-items: center;
+    color: #ffd101;
+  }
+
+  &__rating-icon {
+    margin-right: 2px;
+  }
+
+  &__rating-text {
+    color: var(--dark);
+    margin-left: 5px;
+
+    & span {
+      font-weight: 700;
+    }
+  }
+}

@@ -4,19 +4,23 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/.default/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.js" />
-        <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/review-list/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/review-list/script.min.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/.default_simple/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/products/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/reviews/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/main.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/.default/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.js" />
-      <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/.default_simple/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/products/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/reviews/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/main.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/review_list/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/review_list/script.min.min.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
