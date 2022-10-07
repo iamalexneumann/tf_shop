@@ -1,16 +1,20 @@
 <?php
-AddEventHandler('main', 'OnEndBufferContent', 'removeType');
+AddEventHandler('main', 'OnEndBufferContent', 'removeAtts');
 $eventManager = \Bitrix\Main\EventManager::getInstance();
 $eventManager->addEventHandler('main', 'OnEndBufferContent', 'deleteKernelCss');
 $eventManager->addEventHandler('main', 'OnEndBufferContent', 'removeSpacesAndTabs');
 
-function removeType(&$content)
+function removeAtts(&$content)
 {
     $content = replace_output($content);
 }
 function replace_output($d)
 {
-    return str_replace(' type="text/javascript"', "", $d);
+    return str_replace(
+        [' type="text/javascript"', ' />'],
+        ['', '>'],
+        $d
+    );
 }
 
 function deleteKernelCss(&$content) {
