@@ -1,0 +1,76 @@
+.main-messages {
+  margin-bottom: 0;
+  padding: 10px 0;
+  position: relative;
+
+  .main-messages &__btn-close {
+    width: 40px;
+    height: 100%;
+    line-height: 100%;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--white);
+    transition: var(--transition);
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+
+  &__btn-prev,
+  &__btn-next {
+    width: 40px;
+    font-size: 1rem;
+    transition: var(--transition);
+  }
+
+  &__btn-prev {
+    left: 0;
+  }
+
+  &__btn-next {
+    right: 40px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding-right: 25px;
+
+    &__container {
+      padding: 0 25px;
+    }
+
+    .main-messages &__btn-close {
+      width: 25px;
+      font-size: 1.125rem;
+    }
+
+    &__btn-prev,
+    &__btn-next {
+      width: 25px;
+      font-size: 0.85rem;
+    }
+
+    &__btn-next {
+      right: 25px;
+    }
+  }
+}
+
+.message-list {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    font-weight: 500;
+    font-size: var(--font-size-small);
+  }
+
+  &__btn {
+    margin-left: 10px;
+  }
+}
