@@ -2,9 +2,16 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.bundle.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.esm.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.es6.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/.default/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/message_list/script.min.js" />
-        <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/message_list/script.min.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/.default_simple/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/products/script.min.js" />
@@ -13,9 +20,16 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.bundle.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.esm.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.es6.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/.default/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/message_list/script.min.js" />
-      <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/message_list/script.min.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/review_list/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/.default_simple/script.min.js" />
