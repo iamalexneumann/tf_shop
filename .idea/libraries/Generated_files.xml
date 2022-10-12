@@ -7,9 +7,10 @@
         <item url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.min.js" />
         <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.es6.min.js" />
         <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.js" />
-        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.min.js" />
         <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.js" />
-        <item url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/show_more/js/showMore.esm.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/show_more/js/showMore.min.js" />
+        <item url="file://$PROJECT_DIR$/local/js/ui/show_more/js/showMore.umd.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/.default/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/message_list/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.js" />
@@ -17,6 +18,22 @@
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/products/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/reviews/script.min.js" />
         <item url="file://$PROJECT_DIR$/local/templates/tf_shop/main.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/.default/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/.default/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/message_list/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/message_list/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/product_list/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/product_list/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/review_list/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/review_list/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/.default_simple/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/.default_simple/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/products/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/products/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/reviews/script.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/reviews/script.min.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/main.min.js" />
+        <item url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/main.min.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -25,9 +42,10 @@
       <root url="file://$PROJECT_DIR$/local/js/ui/bootstrap5/js/bootstrap.min.js" />
       <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.es6.min.js" />
       <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.js" />
-      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/inputmask.min.min.js" />
       <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.js" />
-      <root url="file://$PROJECT_DIR$/local/js/ui/inputmask/jquery.inputmask.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/show_more/js/showMore.esm.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/show_more/js/showMore.min.js" />
+      <root url="file://$PROJECT_DIR$/local/js/ui/show_more/js/showMore.umd.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/.default/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/message_list/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news.list/product_list/script.min.js" />
@@ -36,6 +54,22 @@
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/products/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/components/bitrix/news/reviews/script.min.js" />
       <root url="file://$PROJECT_DIR$/local/templates/tf_shop/main.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/.default/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/.default/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/message_list/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/message_list/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/product_list/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/product_list/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/review_list/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news.list/review_list/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/.default_simple/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/.default_simple/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/products/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/products/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/reviews/script.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/components/bitrix/news/reviews/script.min.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/main.min.js" />
+      <root url="file://$PROJECT_DIR$/local/templates/tf_shop_telegram/main.min.min.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

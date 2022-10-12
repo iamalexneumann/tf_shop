@@ -17,6 +17,10 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
  */
 use Bitrix\Main\Localization\Loc;
 Loc::loadLanguageFile(__FILE__);
+use Bitrix\Main\UI\Extension;
+use Bitrix\Main\Page\Asset;
+global $USER;
+if ($USER->IsAdmin()):
 ?>
 <!DOCTYPE html>
 <html lang="<?= LANGUAGE_ID; ?>">
@@ -24,8 +28,6 @@ Loc::loadLanguageFile(__FILE__);
     <title><?php $APPLICATION->ShowTitle(); ?> | <?= $siteparam_logo_name; ?></title>
     <?php
     echo $siteparam_scripts_head;
-    use Bitrix\Main\UI\Extension;
-    use Bitrix\Main\Page\Asset;
     Extension::load(
         [
             'ui.bootstrap5',
@@ -181,3 +183,4 @@ $APPLICATION->IncludeComponent(
             <?php $APPLICATION->ShowViewContent('MAIN_SUBTITLE'); ?>
         </header>
         <?php endif; ?>
+<?php endif; ?>
