@@ -40,22 +40,20 @@ $param_form_position = $arParams['FORM_POSITION'] ?? '3';
         );
     ?>
     <div class="col-lg-6">
-        <article class="review-item" id="<?= $this->GetEditAreaId($arItem['ID']) ;?>">
-            <header class="review-item__header">
-                <a href="<?= $arItem['DETAIL_PAGE_URL']; ?>"
-                   class="review-item__img-link"
-                   rel="nofollow">
+        <div class="review-item" id="<?= $this->GetEditAreaId($arItem['ID']) ;?>">
+            <div class="review-item__header">
+                <div class="review-item__img-link">
                     <img src="<?= $arItem['PICTURE_LQIP']['SRC']; ?>"
                          data-src="<?= $arItem['PICTURE']['SRC']; ?>"
                          class="review-item__img lazyload"
                          alt="<?= $arItem['NAME'] . ': ' . Loc::getMessage('REVIEWS_LIST_IMG_ALT'); ?>"
                          width="<?= $arItem['PICTURE']['WIDTH']; ?>"
                          height="<?= $arItem['PICTURE']['HEIGHT']; ?>">
-                </a>
+                </div>
                 <div class="review-item__header-wrapper">
-                    <h<?=$param_small_card_tag_title; ?> class="review-item__title">
-                        <a href="<?= $arItem['DETAIL_PAGE_URL']; ?>" class="review-item__link"><?= $arItem['NAME']; ?></a>
-                    </h<?=$param_small_card_tag_title; ?>>
+                    <div class="review-item__title">
+                        <?= $arItem['NAME']; ?>
+                    </div>
                     <time datetime="<?= $arItem['DATETIME']; ?>" class="review-item__date">
                         <?= $arItem['DATE'] . ' ' . Loc::getMessage('REVIEW_LIST_DATE_Y'); ?>
                     </time>
@@ -67,7 +65,7 @@ $param_form_position = $arParams['FORM_POSITION'] ?? '3';
                             <span><?= $arItem['DISPLAY_PROPERTIES']['ATT_RATING']['VALUE']; ?></span>/5</div>
                     </div>
                 </div>
-            </header>
+            </div>
             <?php if ($arItem['DISPLAY_PROPERTIES']['ATT_DETAIL_TEXT']['~VALUE']): ?>
             <div class="review-item__text">
                 <?php
@@ -86,20 +84,10 @@ $param_form_position = $arParams['FORM_POSITION'] ?? '3';
             <?php endif; ?>
             <div class="review-item__tags">
                 <?php foreach ($arItem['TAGS'] as $tag_key => $tag): ?>
-                <a href="#" class="review-item__tag">#<?= $tag; ?></a><?= (($tag_key + 1) < count($arItem['TAGS'])) ? ', ' : ''; ?>
+                <span class="review-item__tag">#<?= $tag; ?></span><?= (($tag_key + 1) < count($arItem['TAGS'])) ? ', ' : ''; ?>
                 <?php endforeach; ?>
             </div>
-            <div class="review-item__products review-products">
-                <div class="review-products__title"><?= Loc::getMessage('REVIEW_LIST_PRODUCTS_TITLE'); ?>:</div>
-                <ul class="review-products__list product-small-list">
-                    <?php foreach ($arItem['DISPLAY_PROPERTIES']['ATT_LINKED_PRODUCT']['LINK_ELEMENT_VALUE'] as $product_item): ?>
-                    <li class="product-small-list__item">
-                        <a href="<?= $product_item['DETAIL_PAGE_URL']; ?>" class="product-small-list__link"><?= $product_item['NAME']; ?></a>
-                    </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        </article>
+        </div>
     </div>
     <?php
     if ($param_show_form_block === 'Y' &&

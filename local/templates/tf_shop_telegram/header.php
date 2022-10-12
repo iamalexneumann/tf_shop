@@ -13,7 +13,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
  * @var COption $siteparam_main_phone_tel
  * @var COption $siteparam_logo_name
  * @var COption $siteparam_logo_description
- * @var COption $siteparam_telegram_link
+ * @var COption $siteparam_telegram_chanell
  */
 use Bitrix\Main\Localization\Loc;
 Loc::loadLanguageFile(__FILE__);
@@ -37,6 +37,16 @@ Loc::loadLanguageFile(__FILE__);
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/main.js');
     $APPLICATION->ShowHead();
     ?>
+    <link rel="apple-touch-icon" sizes="180x180" href="/price/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/price/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/price/favicon-16x16.png">
+    <link rel="manifest" href="/price/site.webmanifest">
+    <link rel="mask-icon" href="/price/safari-pinned-tab.svg" color="#d90429">
+    <link rel="shortcut icon" href="/price/favicon.ico">
+    <meta name="msapplication-TileColor" content="#d90429">
+    <meta name="msapplication-config" content="/price/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <?= $siteparam_scripts_body_before; ?>
@@ -107,17 +117,16 @@ $APPLICATION->IncludeComponent(
             <div class="logo__name"><?= $siteparam_logo_name; ?></div>
             <div class="logo__description"><?= $siteparam_logo_description; ?></div>
         </div>
-        <div class="contacts">
-            <?php if ($siteparam_telegram_link): ?>
-            <a href="<?= $siteparam_telegram_link; ?>"
-               class="messengers__link"
-               target="_blank"
-               title="<?= Loc::getMessage('HEADER_MESSENGERS_TELEGRAM_TITLE'); ?>"><i class="fa-brands fa-telegram"></i></a>
-            <?php endif; ?>
-            <a href="tel:<?= $siteparam_main_phone_tel; ?>"
-               class="header-contacts__phone-link"
-               title="<?= Loc::getMessage('HEADER_MAIN_PHONE_TITLE'); ?>"><?= $siteparam_main_phone; ?></a>
-        </div>
+
+        <?php if ($siteparam_telegram_chanell): ?>
+        <a href="<?= $siteparam_telegram_chanell; ?>"
+           class="btn btn-primary telegram-chanell"
+           target="_blank"
+           title="<?= Loc::getMessage('HEADER_MESSENGERS_TELEGRAM_CHANELL_TITLE'); ?>">
+            <?= Loc::getMessage('HEADER_MESSENGERS_TELEGRAM_CHANELL_TITLE'); ?>
+            <i class="fa-brands fa-telegram telegram-chanell__icon"></i>
+        </a>
+        <?php endif; ?>
     </div>
 </header>
-<main class="container">
+<main>

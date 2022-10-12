@@ -37,7 +37,7 @@ $param_small_card_tag_title = $arParams['SMALL_CARD_TAG_TITLE'] ?? '2';
         );
     ?>
     <div class="col-xl-4 col-lg-6 product-list__col">
-        <article class="product-item<?= $arItem['DISPLAY_PROPERTIES']['ATT_LABEL']['VALUE_XML_ID'] ? ' product-item_' . $arItem['DISPLAY_PROPERTIES']['ATT_LABEL']['VALUE_XML_ID']: ''; ?>" id="<?= $this->GetEditAreaId($arItem['ID']) ;?>">
+        <div class="product-item<?= $arItem['DISPLAY_PROPERTIES']['ATT_LABEL']['VALUE_XML_ID'] ? ' product-item_' . $arItem['DISPLAY_PROPERTIES']['ATT_LABEL']['VALUE_XML_ID']: ''; ?>" id="<?= $this->GetEditAreaId($arItem['ID']) ;?>">
             <div class="product-item__img-link">
                 <img src="<?= $arItem['PICTURE_LQIP']['SRC']; ?>"
                      data-src="<?= $arItem['PICTURE']['SRC']; ?>"
@@ -90,7 +90,7 @@ $param_small_card_tag_title = $arParams['SMALL_CARD_TAG_TITLE'] ?? '2';
                     </div>
                 </div>
             </div>
-        </article>
+        </div>
     </div>
     <?php endforeach; ?>
 </div>

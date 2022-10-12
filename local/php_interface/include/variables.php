@@ -15,6 +15,7 @@ $siteparam_schedule = Option::get('askaron.settings', 'UF_SCHEDULE', '');
 $siteparam_whatsapp_number = Option::get('askaron.settings', 'UF_WHATSAPP_NUMBER', '');
 $siteparam_whatsapp_message = transform_text_to_whatsapp_link(Option::get('askaron.settings', 'UF_WHATSAPP_MESSAGE', ''));
 $siteparam_telegram_link = Option::get('askaron.settings', 'UF_TELEGRAM_LINK', '');
+$siteparam_telegram_chanell = Option::get('askaron.settings', 'UF_TELEGRAM_CHANELL', '');
 $siteparam_address = Option::get('askaron.settings', 'UF_ADDRESS', '');
 
 $siteparam_api_key_yandex_map = Option::get('askaron.settings', 'UF_API_KEY_YANDEX_MAP', '');

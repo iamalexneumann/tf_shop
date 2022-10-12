@@ -152,6 +152,15 @@ h5,
   --bs-btn-disabled-color: var(--white);
   --bs-btn-disabled-border-color: var(--white); }
 
+.main-header {
+  background: var(--white);
+  text-align: center;
+  margin-bottom: 50px; }
+
+.telegram-chanell__icon {
+  margin-left: 2px;
+  font-size: 1rem; }
+
 .logo {
   width: 100%;
   display: flex;
@@ -170,14 +179,23 @@ h5,
     color: var(--text-muted);
     font-size: var(--font-size-small); }
 
+.main-section {
+  padding: 50px 0;
+  background: #fafafa; }
+  .main-section__title {
+    text-align: center;
+    margin-bottom: 50px; }
+
 .main-footer {
   background: #2d3436;
-  color: var(--white); }
+  color: var(--white);
+  text-align: center; }
   .main-footer__logo .logo__name {
     color: var(--white); }
   .main-footer__copyright {
     font-size: var(--font-size-small);
-    text-align: center;
     padding: 10px 0; }
+  .main-footer .telegram-chanell {
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=template_styles.css.map */
